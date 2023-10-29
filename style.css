@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    color: orangered;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+
+.title {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.btn {
+    height: 64px;
+    color: white;
+    background-color: orangered;
+    border-radius: 5px;
+    font-weight: 700;
+    height: 64px;
+    font-size:20px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
