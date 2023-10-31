@@ -8,6 +8,7 @@
 
 }
 
+/* header and nav style */
 nav {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@ nav {
 }
 
 .title {
-    font-weight: 300;
+    font-weight:300;
     font-size: 40px;
 }
 
@@ -27,7 +28,7 @@ nav {
     border-radius: 5px;
     font-weight: 700;
     height: 64px;
-    font-size:20px;
+    font-size: 20px;
     border: 0;
     padding: 18px 35px;
 }
@@ -49,4 +50,29 @@ nav li {
 .nav-title {
     font-weight: 800;
     font-size: 45px;
+}
+
+/* banner style */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner head {
+    font-weight: 700px;
+    font-size: 85px;
+
+
+}
+
+.sub title {
+    font-weight: 600px;
+    font-size: 45px;
+    margin-bottom:200px;
+}
+
+.description {
+    font-size: 16;
+    font-weight: 400;
 }
