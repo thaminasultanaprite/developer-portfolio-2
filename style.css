@@ -69,10 +69,15 @@ nav li {
 .sub title {
     font-weight: 600px;
     font-size: 45px;
-    margin-bottom:200px;
+    margin-bottom:20px;
 }
 
 .description {
-    font-size: 16;
-    font-weight: 400;
+    font-size:18;
+    font-weight: 400; 
+    margin-bottom:40; 
+    color: cadetblue;
+}
+.btn{
+
 }
