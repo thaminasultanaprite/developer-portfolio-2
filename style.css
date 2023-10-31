@@ -59,17 +59,17 @@ nav li {
     align-items: center;
 }
 
-.banner head {
-    font-weight: 700px;
-    font-size: 85px;
+.bannerhead {
+    font-weight: 200px;
+    font-size: 45px;
 
 
 }
 
-.sub title {
+.subtitle {
     font-weight: 600px;
     font-size: 45px;
-    margin-bottom:20px;
+    margin-bottom:40px;
 }
 
 .description {
@@ -78,6 +78,6 @@ nav li {
     margin-bottom:40; 
     color: cadetblue;
 }
-.btn{
-
+.headercolor {
+    background: #d0a07e ;
 }
