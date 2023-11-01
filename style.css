@@ -79,5 +79,8 @@ nav li {
     color: cadetblue;
 }
 .headercolor {
-    background: #d0a07e ;
+    background: #b59c8b ;
+   background-image: url(/images/header_bg.png),url(/images/developer.png);
+   background-repeat: no-repeat;
+   background-position: bottom right ,left;
 }
