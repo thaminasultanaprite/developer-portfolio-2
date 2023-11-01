@@ -119,9 +119,7 @@ main {
     background-color: #a6e29b;
     padding: 130px 150px;
     margin-top: 130px;
-    text-align: center; 
-    padding-right: 157px;
-
+    text-align: center;
 }
 
 .sectiontitle {
@@ -148,5 +146,38 @@ main {
     font-weight: 700;
     font-size: 20;
     color: brown;
+}
 
+.doing {
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.containers {
+    display: flex;
+    gap: 30px;
+    
+}
+.skilltitle{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius:5px;
+    padding: 30px;
+}
+
+.skill {
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skilldiscription {
+    color: #757575;
+}
+.section-title{
+    text-align: center;
+    margin-top: 20px;
+    
 }
