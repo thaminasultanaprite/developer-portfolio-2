@@ -23,7 +23,7 @@ nav {
 
 .btn {
     height: 64px;
-    color:white;
+    color: white;
     background-color: orangered;
     border-radius: 5px;
     font-weight: 600;
@@ -33,9 +33,10 @@ nav {
     padding: 18px 35px;
     margin-top: 20px;
 }
-.con{
+
+.con {
     height: 64px;
-    color:white;
+    color: white;
     background-color: orangered;
     border-radius: 5px;
     font-weight: 600;
@@ -44,9 +45,9 @@ nav {
     border: 0;
     padding: 18px 35px;
     margin-top: 20px;
-    
-    
- 
+
+
+
 
 }
 
@@ -92,7 +93,7 @@ nav li {
 .description {
     font-size: 18;
     font-weight: 400;
-margin-top: 10px;
+    margin-top: 10px;
     color: rgb(1, 3, 39);
 }
 
@@ -107,6 +108,7 @@ margin-top: 10px;
 main {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 
@@ -117,14 +119,34 @@ main {
     background-color: #a6e29b;
     padding: 130px 150px;
     margin-top: 130px;
-    text-align: center;
+    text-align: center; 
+    padding-right: 157px;
 
 }
 
 .sectiontitle {
-   text-align:center;
+    text-align: center;
 }
 
-.sectiondescription { 
+.sectiondescription {
     margin-top: 20px;
+}
+
+.aboutinfocontainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 118px 60px;
+
+}
+
+.about.info title {
+    font-size: 20;
+    color: salmon;
+}
+
+.info description {
+    font-weight: 700;
+    font-size: 20;
+    color: brown;
+
 }
