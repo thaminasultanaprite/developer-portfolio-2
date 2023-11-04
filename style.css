@@ -34,22 +34,7 @@ nav {
     margin-top: 20px;
 }
 
-.con {
-    height: 64px;
-    color: white;
-    background-color: orangered;
-    border-radius: 5px;
-    font-weight: 600;
-    height: 64px;
-    font-size: 20px;
-    border: 0;
-    padding: 18px 35px;
-    margin-top: 20px;
 
-
-
-
-}
 
 nav ul {
     display: flex;
@@ -105,23 +90,40 @@ nav li {
 }
 
 /* main style */
-main {
+/* main {
     max-width: 1140px;
     margin: 0 auto;
 
-}
+} */
 
 
 /* about section style */
-.about {
+/* .about {
     margin-bottom: 130px;
     border-radius: 10px;
     background-color: #a6e29b;
     padding: 130px 150px;
     margin-top: 130px;
     text-align: center;
+  
+} */
+.about-self{
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 50px;
 }
-
+.abt-sec{
+    background-color: aqua;
+     border: 5px solid red;
+    margin: 0 150px 0 150px;
+    padding: 25px;
+}
+.body{
+    margin: 50px;
+}
+.about{
+    margin: 150px;
+}
 .sectiontitle {
     text-align: center;
 }
@@ -150,23 +152,24 @@ main {
 
 .doing {
     text-align: center;
-    margin-top: 130px;
+    /* margin-top: 130px; */
 
 }
 
 .containers {
     display: flex;
-    gap: 30px;
+    gap:30px;
+    
     
 }
 .skilltitle{
-    background: #FFFFFF;
-    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
     border-radius:5px;
     padding: 30px;
 }
 
 .skill {
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+
     font-weight: 700px;
     font-size: 20px;
     margin-top: 30px;
